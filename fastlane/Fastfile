@@ -1,0 +1,10 @@
+lane :test do
+  napp_notifications(
+    admin_api_key: "Napp Notifications API-KEY",
+    app_id: "Napp Notifications App Id",
+    bundle_id: "com.example.helloworld",
+    cert_p12: "Path to Apple .p12 file",
+    cert_password: "Password for .p12 file",
+    base_url: "URL to server (optional)"
+  )
+end
